@@ -9,7 +9,7 @@
 	];
 
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    	curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 
 	$server_output = curl_exec($ch);
 
