@@ -16,6 +16,6 @@ hello-application.php
 hello-user.php
 
 ## Common issues
-If you get invalid return_uri for hello-user, it's likely causes are:
+If you get invalid return_uri for hello-user, likely causes are:
 - Not using HTTPS (you have to).
 - Not registering your return URL in your application.
