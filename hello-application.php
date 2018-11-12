@@ -12,7 +12,7 @@
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL,"https://test-api.service.hmrc.gov.uk/hello/application");
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+    	curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 	$server_output = curl_exec ($ch);
 	curl_close ($ch);
 
