@@ -1,11 +1,11 @@
 # HMRC MTD API Examples in PHP
 
-Basic PHP examples based on the HMRC MTD API tutorial here:
+Basic PHP examples based on the HMRC MTD API tutorial here:  
 https://developer.service.hmrc.gov.uk/api-documentation/docs/tutorials
 
 All tested and working.
 
-You will need a developer account from here:
+You will need a developer account from here:  
 https://developer.service.hmrc.gov.uk/developer/registration
 
 Create a test application, and you will then be able to get the data you need for config.php
